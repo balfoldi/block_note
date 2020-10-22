@@ -5,7 +5,7 @@ import { MarkdownInput } from "./components/MarkdownInput";
 import { NoteDisplay } from "./components/NoteDisplay";
 import { NotesIndex } from "./components/NotesIndex";
 import anime from "animejs";
-import "App.css";
+import "./App.css";
 
 const App = () => {
   const [input, setInput] = useState({});
