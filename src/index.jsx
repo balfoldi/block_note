@@ -66,12 +66,12 @@ const App = () => {
       </div>
       <div className="container h-100">
         <div className="d-flex h-100">
-          <div className="col-3 d-flex flex-column h-100">
+          <div className="garmorant col-3 d-flex flex-column h-100">
             <button onClick={clearDisplay} className="garmorant btn btn-danger w-80 align-self-center mt-2"> Ajouter une note</button>{' '}
             <button onClick={clearLocalStorage} className="garmorant btn btn-outline-light w-80 align-self-center mt-2"> Effacer toutes les notes</button>{' '}
             <NotesIndex noteList={noteList} editNote={editNote}/>
           </div>
-          <div id="displayCard" className="col-9 h-100" >
+          <div id="displayCard" className="garmorant col-9 h-100 " >
             <NoteDisplay getResult={result} />
             <MarkdownInput input={input} reset={reset} getInput={inputValue} pullLocalStorage={pullLocalStorage}/>
           </div>
