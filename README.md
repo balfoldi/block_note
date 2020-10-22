@@ -1,3 +1,7 @@
+## The pleasant Bookmark est un exercice réalisé dans le cadre de THP. Il permet de noter et éditer ses idées. Réalisé par <a href="https://github.com/balfoldi"> Boris Alfodi 🍉 </a>, <a href="https://github.com/hsravo"> hsravo 🌚 </a> et <a href="https://github.com/RigateStudio"> Lucas Gautier ✨ </a>
+
+## A consulter ici : 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
